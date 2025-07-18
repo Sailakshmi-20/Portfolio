@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body {
+  background:linear-gradient(rgb(2, 1, 39),black);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.head{
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+}
+.nav li{
+    list-style-type:none;
+    display:inline-block;
+    padding:0 30px;
+}
+.nav li a{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+}
+.head h3{
+    color:rgb(94, 243, 67);
+    border:2px solid rgb(88, 235, 105);
+    border-style:dotted;
+    border-radius:20px;
+    padding:5px;
+    text-shadow: 1px 1px 2px rgb(242, 235, 235) ;
+    font-size:22px; 
+}
+.head h3:hover{
+    color:rgb(255, 242, 0);
+    box-shadow:0 0 10px 2px aqua;
+    transition-duration: 1s;
+}
+.nav li a:hover{
+    color:aqua;
+    font-weight:bold;
+    text-shadow:1px 1px rgba(125, 132, 93, 0.999);
+    border:1px solid rgba(200, 175, 175, 0.652);
+    border-radius:10px;
+    box-shadow: 2px 2px 20px 5px rgb(112, 190, 208);
+    padding:4px;
+    background-color:rgb(102, 102, 88)
+}
+
+.content{
+    color:white;
+    
+}
+.para{
+    width: 400px;
+    font-size: 18px;
+    justify-content:center;
+}
+.content h1{
+    background: linear-gradient( #26cee1, #36ef2c);
+    background-clip: text;
+    -webkit-background-clip: text;   
+    color: transparent;
+    font-size:45px;
+}
+.content h3{
+    color:#f3c396;
+    font-size:30px;
+}
+
+.home{
+    
+    border:1px solid aqua;
+    background: linear-gradient(rgb(21, 21, 49),rgb(46, 0, 45));
+    display:flex;
+    justify-content: space-between;
+    gap:50px;
+    align-items: center;
+    justify-content: center;
+    margin:100px;
+    padding:100px 0;
+    
+}
+.home:hover{
+    border:10px solid rgba(195, 193, 187, 0.822);
+    border-style: ridge;
+}
+.circle {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient( #6de9e7,rgb(16, 1, 100));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 50%;
+  box-shadow:0px 0px 30px 5px rgb(80, 188, 207);
+}
+.circle img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+.about{
+    color:white;
+    background:linear-gradient(rgb(46, 2, 2),rgb(71, 2, 55));
+    padding:100px 0px;
+    margin:100px;
+    text-align:center;
+    align-items:center;
+    line-height:30px;
+    border:1px solid aqua;
+}
+.about:hover{
+    border:10px solid rgba(195, 193, 187, 0.822);
+    border-style: ridge;
+}
+.about h2{
+    font-size:40px;
+    background:linear-gradient(rgb(228, 132, 185),rgb(101, 197, 235));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+.about p{
+    padding:50px 100px;
+    font-size:20px;
+    text-align: left;
+    justify-content: center;
+}
+.skills{
+    color:white;
+    border:1px solid aqua;
+     background: linear-gradient(#1c2801,rgb(43, 1, 7));
+    
+    margin:100px;
+    padding:100px 0px;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+}
+.skills h2{
+     font-size:40px;
+    background:linear-gradient(rgb(228, 132, 185),rgb(101, 197, 235));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+.tags{
+    
+    padding:50px;
+    font-size:30px;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+.tags p{
+    color:pink;
+    background: linear-gradient(rgb(104,66,1),#1c2506);
+     
+    border:1px solid rgb(141, 137, 137);
+    box-shadow:4px 4px 5px 0px gray;
+    padding:10px;
+    margin:20px;
+    margin:20px 200px; 
+}
+.skills:hover{
+    border:10px solid rgba(195, 193, 187, 0.822);
+    border-style: ridge;
+}
+.tags p:hover{
+    font-weight:bolder;
+    box-shadow:0 0 30px 10px aqua;
+}
+.projects{
+    color:white;
+    border:1px solid aqua;
+   background: linear-gradient( #022700 ,rgb(48, 5, 26),);
+    margin:100px;
+    padding:100px 0px;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    
+}
+.projects h2{
+     font-size:40px;
+    background:linear-gradient(rgb(228, 132, 185),rgb(101, 197, 235));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+
+.projects p{
+    font-size:30px;
+    color:rgb(101, 225, 155);
+    background: linear-gradient(rgb(48, 5, 26),#022700);
+    
+    border:1px solid rgb(141, 137, 137);
+    box-shadow:4px 4px 5px 0px gray;
+    padding:20px;
+    margin:80px 200px; 
+    
+}
+.projects:hover{
+    border:10px solid rgba(195, 193, 187, 0.822);
+    border-style: ridge;
+}
+.projects p:hover{
+    font-weight:bolder;
+    box-shadow:0 0 50px 5px aqua;
+}
+.contact{
+    color:white;
+    background:linear-gradient(rgb(53, 50, 50),rgb(67, 2, 27));
+    margin:100px;
+    padding:100px 0;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    border:1px solid aqua;
+}
+.contact h2{
+
+    font-size:40px;
+    background:linear-gradient(rgb(228, 132, 185),rgb(101, 197, 235));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+.details{
+   margin:80px;
+   font-size:20px; 
+}
+.mail{
+    
+    padding:40px;
+}
+.mail a{
+    text-decoration:none;
+    color:#f3c396;
+}
+.mail a:hover{
+    color:#6de9e7;
+    font-weight:bold;
+    font-size:22px;
+}
+.contact:hover{
+    border:10px solid rgba(195, 193, 187, 0.822);
+    border-style: ridge;
+}
+@media screen and (max-width:1024px){
+    .head h3{
+        font-size:18px;
+    }
+    .nav li a{
+        font-size:16px;
+    }
+    .content h2, .content h3{
+        font-size:20px;
+    }
+    .content h1{
+        font-size:30px;
+    }
+    .para{
+        font-size:16px;
+    }
+    .about h2{
+        font-size:30px;
+    }
+    .about p{
+        font-size:18px;
+    }
+    .skills h2, .projects h2, .contact h2{
+        font-size:30px;
+    }
+    .tags, .projects p{
+        font-size:25px;
+    }
+}
+@media screen and (max-width:950px){
+    .home{
+        gap:20px;
+    }
+    .para{
+        width:300px;
+    }
+    .circle{
+        height:200px;
+        width:200px;
+    }
+    .circle img{
+        height:190px;
+        width:190px;
+    }
+    .tags p, .projects p{
+        font-size:20px; 
+        margin:20px
+    }
+}
+@media screen and (max-width:768px){
+    .nav li{
+        padding:10px;
+       
+    }
+    .nav li a{
+        font-size:10px;
+    }
+    .content h3{
+        font-size:15px;
+    }
+    .para{
+        width:300px;
+    }
+    .content{
+        text-align:center;
+    }
+    .home{
+        gap:40px;
+        flex-direction:column-reverse;
+        padding:30px;
+        margin:0px 50px;
+    }
+    .about, .skills, .projects, .contact{
+        margin:50px;
+        padding:30px;
+    }
+    .tags, .projects p{
+        font-size:18px;
+    }
+    .about p{
+        padding:50px 20px;
+    }
+    .contact p{
+        padding:-30px;
+    }
+    .mail{
+        font-size:15px;
+        padding:20px 0px;
+    }
+}
+@media screen and (max-width:480px){
+        .nav li a{
+            font-size:8px;
+        }
+        
+        .nav li{
+            padding:3px;
+        }
+        .head h3{
+            font-size: 10px;
+        }
+        .circle{
+            width:150px;
+            height:150px;
+        }
+        .circle img{
+            width:140px;
+            height:140px;
+        }
+        .content h1{
+            font-size:15px;
+        }
+        .content h2{
+            font-size:8px;
+        }
+        .content h3{
+            font-size:9px;
+        }
+        .para{
+            width:200px;
+            font-size:10px;
+        }
+        .about, .home, .skills, .projects, .contact{
+            margin:20px;
+            padding:10px;
+        }
+        .about p{
+            font-size:10px;
+            line-height:15px;
+        }
+        .about h2, .skills h2, .projects h2, .contact h2{
+            font-size:15px;
+        }
+        .tags p, .projects p, .contact p{
+            font-size:12px;
+        }
+        .tags{
+            padding:20px;
+        }
+        .projects p{
+            padding:10px;
+        }
+        .details p{
+            margin-top:-80px;
+        
+            font-size:10px;
+        }
+        .mail{
+            font-size:10px;
+            
+        }
+        .mail p{
+            text-align:center;
+            
+        }
+
+        
+            
+        
+    
+    
+}
+/* 320px: Small mobile devices.
+480px: Larger smartphones.
+768px: Tablets.
+1024px: Small desktops/laptops.
+1280px and above: Large desktops. */
